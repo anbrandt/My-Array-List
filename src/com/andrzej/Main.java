@@ -32,6 +32,14 @@ public class Main {
 		System.out.println(myArray.getSize());
 
 
+		//IMPROVEMENT WITH GENERICS - to be done in home 
+
+		ArrayMethods<ObElement> myArray2 = new ArrayMethods<ObElement>();
+
+
+
+
+
 
 		//zróbcie prostego array lista
 		//do którego wkładamy coś np. objekt

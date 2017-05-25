@@ -3,13 +3,12 @@ package com.andrzej;
 /**
  * Created by andrzej on 24.05.17.
  */
-public class ArrayListElement {
+public class ArrayListElement<DataType> {
 	private ArrayListElement previous;
-	private Object data;
+	private DataType data;
 	private ArrayListElement next;
 
-	public ArrayListElement( Object data) {
-
+	public ArrayListElement( DataType data) {
 		this.data = data;
 
 	}
@@ -18,7 +17,7 @@ public class ArrayListElement {
 		return previous;
 	}
 
-	public Object getData() {
+	public DataType getData() {
 		return data;
 	}
 
@@ -26,7 +25,7 @@ public class ArrayListElement {
 		this.previous = previous;
 	}
 
-	public void setData(Object data) {
+	public void setData(DataType data) {
 		this.data = data;
 	}
 
