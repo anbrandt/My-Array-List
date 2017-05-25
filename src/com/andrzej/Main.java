@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-//FREQUENT INTERVIEW TASKS FOR JUNIOR POSITIONS 
+//FREQUENT INTERVIEW TASKS FOR JUNIOR POSITIONS
 public class Main {
 
 	public static void main(String[] args) {
@@ -16,12 +16,18 @@ public class Main {
 		myArray.addToArray("ala");
 		myArray.addToArray("jasiek");
 		myArray.addToArray("coś");
+		myArray.addToArray("tomek");
+		myArray.addToArray("jacek");
+		myArray.addToArray("krzyś");
+
 
 		System.out.println(myArray.get(0));
-
 		System.out.println(myArray.get(1));
-
 		System.out.println(myArray.get(2));
+		System.out.println(myArray.get(3));
+		System.out.println(myArray.get(4));
+		System.out.println(myArray.get(5));
+		System.out.println(myArray.get(6));
 
 		System.out.println(myArray.getSize());
 

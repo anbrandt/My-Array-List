@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class ArrayMethods {
 	private ArrayListElement firstElement; //create a reference to the first added element
 	private ArrayListElement lastAddedElement; //create a reference to the last added element
-	private int size;
+	private int size; //for getSize method, used in addtoArray this.size++ - much quicker, SMART!
 
 	public void addToArray(Object data) {
 		ArrayListElement item = new ArrayListElement(data);
@@ -37,7 +37,7 @@ public class ArrayMethods {
 					i++;
 					current = current.getNext();
 				}
-			} while (current.getNext() != null);
+			} while (current != null);
 			return null;
 		}
 	}
